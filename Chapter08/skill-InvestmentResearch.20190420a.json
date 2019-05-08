@@ -1,0 +1,1965 @@
+{
+  "name": "InvestmentResearch",
+  "intents": [
+    {
+      "intent": "Done",
+      "examples": [
+        {
+          "text": "Finish"
+        },
+        {
+          "text": "I think I've had enough"
+        },
+        {
+          "text": "Quit"
+        },
+        {
+          "text": "Exit"
+        },
+        {
+          "text": "I'm done"
+        },
+        {
+          "text": "Ok, that's enough"
+        },
+        {
+          "text": "Take me back"
+        },
+        {
+          "text": "That will do"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Entity-Of-Interest",
+      "examples": [
+        {
+          "text": "focus in on Sigmund Freud "
+        },
+        {
+          "text": "I'm interested to learn more about Anne Miller"
+        },
+        {
+          "text": "Let's take a look at SpaceX",
+          "mentions": [
+            {
+              "entity": "entity",
+              "location": [
+                21,
+                27
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Ok let's deal with Anne Martin in that document",
+          "mentions": [
+            {
+              "entity": "entity",
+              "location": [
+                19,
+                30
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Can we focus in on Jim Baker",
+          "mentions": [
+            {
+              "entity": "entity",
+              "location": [
+                19,
+                28
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Tell me more about how Bloomberg is perceived",
+          "mentions": [
+            {
+              "entity": "entity",
+              "location": [
+                23,
+                32
+              ]
+            }
+          ]
+        },
+        {
+          "text": "what about IBM?",
+          "mentions": [
+            {
+              "entity": "entity",
+              "location": [
+                11,
+                14
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Take a close look at Boeing in https://www.vox.com/2015/2/6/18073658/private-space-flight",
+          "mentions": [
+            {
+              "entity": "entity",
+              "location": [
+                21,
+                27
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Ok, let's focus in on what Virgin Galactic is doing",
+          "mentions": [
+            {
+              "entity": "entity",
+              "location": [
+                27,
+                42
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Focus your attention CEO Chad Anderson",
+          "mentions": [
+            {
+              "entity": "entity",
+              "location": [
+                25,
+                38
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Let's take a closer look at Elon Musk",
+          "mentions": [
+            {
+              "entity": "entity",
+              "location": [
+                28,
+                37
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Let's drill in on Boeing",
+          "mentions": [
+            {
+              "entity": "entity",
+              "location": [
+                18,
+                24
+              ]
+            }
+          ]
+        },
+        {
+          "text": "I'm particularly interested in NASA",
+          "mentions": [
+            {
+              "entity": "entity",
+              "location": [
+                31,
+                35
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Focus on Elon Musk",
+          "mentions": [
+            {
+              "entity": "entity",
+              "location": [
+                9,
+                18
+              ]
+            }
+          ]
+        },
+        {
+          "text": "can we zero in on Sigmund Freud "
+        },
+        {
+          "text": "let's look deeper at Sigmund Freud "
+        },
+        {
+          "text": "focus on Sigmund Freud "
+        },
+        {
+          "text": "Assess Elon Musk in https://www.vox.com/2015/2/6/18073658/private-space-flight",
+          "mentions": [
+            {
+              "entity": "entity",
+              "location": [
+                7,
+                16
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Tell me more about Steve Jobs",
+          "mentions": [
+            {
+              "entity": "entity",
+              "location": [
+                19,
+                29
+              ]
+            }
+          ]
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Entity-Personality",
+      "examples": [
+        {
+          "text": "What are their motivators?"
+        },
+        {
+          "text": "Do we know what drives NASA?"
+        },
+        {
+          "text": "What drives Elon?",
+          "mentions": [
+            {
+              "entity": "entity",
+              "location": [
+                12,
+                16
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Tell me more about what makes them tick"
+        },
+        {
+          "text": "Tell me more about his personality"
+        },
+        {
+          "text": "What do we know about how she thinks?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Document-Of-Interest",
+      "examples": [
+        {
+          "text": "I'd like to analyze https://www.popsci.com/tags/private-space-industry",
+          "mentions": [
+            {
+              "entity": "document",
+              "location": [
+                20,
+                70
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Let's doe some research on https://www.fastcompany.com/3026685/the-worlds-top-10-most-innovative-companies-in-space",
+          "mentions": [
+            {
+              "entity": "document",
+              "location": [
+                27,
+                114
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Looking at, https://news.vice.com/en_us/article/5945y5/heres-how-nasa-created-americas-private-space-industry, let's do some research",
+          "mentions": [
+            {
+              "entity": "document",
+              "location": [
+                12,
+                109
+              ]
+            }
+          ]
+        },
+        {
+          "text": "let's look at a different document"
+        },
+        {
+          "text": "Work on: https://www.cnbc.com/2018/10/10/china-increases-investment-in-emerging-private-space-industry.html",
+          "mentions": [
+            {
+              "entity": "document",
+              "location": [
+                9,
+                107
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Set work on: https://www.theverge.com/2019/3/3/18244501/spacex-crew-dragon-automatic-docking-international-space-station-nasa"
+        },
+        {
+          "text": "do research on https://now.northropgrumman.com/commercial-space-flight-private-taxis-and-the-future-of-space-travel/"
+        },
+        {
+          "text": "Consider this document"
+        },
+        {
+          "text": "Can you take a look at the URL I supplied"
+        },
+        {
+          "text": "Evaluate this"
+        },
+        {
+          "text": "Evaluate https://now.northropgrumman.com/commercial-space-flight-private-taxis-and-the-future-of-space-travel/",
+          "mentions": [
+            {
+              "entity": "document",
+              "location": [
+                9,
+                110
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Focus on https://www.nationalgeographic.com/science/space/space-exploration/future-spaceflight/",
+          "mentions": [
+            {
+              "entity": "document",
+              "location": [
+                9,
+                95
+              ]
+            }
+          ]
+        },
+        {
+          "text": "I'd like to evaluate https://www.vox.com/2015/2/6/18073658/private-space-flight",
+          "mentions": [
+            {
+              "entity": "document",
+              "location": [
+                21,
+                79
+              ]
+            }
+          ]
+        },
+        {
+          "text": "I'm interested in https://www.vox.com/2015/2/6/18073658/private-space-flight",
+          "mentions": [
+            {
+              "entity": "document",
+              "location": [
+                18,
+                76
+              ]
+            }
+          ]
+        },
+        {
+          "text": "let's consider the document at: https://www.newstatesman.com/science-tech/space/2018/01/one-small-step-private-companies-how-future-space-travel-being-redefined, this would be interesting to me",
+          "mentions": [
+            {
+              "entity": "document",
+              "location": [
+                32,
+                160
+              ]
+            }
+          ]
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Translate-Research",
+      "examples": [
+        {
+          "text": "Translate that to French"
+        },
+        {
+          "text": "I want to hear that in Spanish"
+        },
+        {
+          "text": "Give me that in Japanese"
+        },
+        {
+          "text": "Translate the summary"
+        },
+        {
+          "text": "To French"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Classify-Text",
+      "examples": [
+        {
+          "text": "Classify the main paragraph"
+        },
+        {
+          "text": "Summarize the intent of the document"
+        },
+        {
+          "text": "What is the main topic of the document?"
+        },
+        {
+          "text": "Give me the main concept of the document"
+        },
+        {
+          "text": "Classify the document"
+        },
+        {
+          "text": "Classify, \"SpaceX will launch a rocket in May\""
+        },
+        {
+          "text": "Classify this sentence"
+        },
+        {
+          "text": "Tell me the primary purpose of this article"
+        },
+        {
+          "text": "Provide a sense of the leading points"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Summarize-Document",
+      "examples": [
+        {
+          "text": "take a deep look at https://now.northropgrumman.com/commercial-space-flight-private-taxis-and-the-future-of-space-travel/"
+        },
+        {
+          "text": "summer is the document "
+        },
+        {
+          "text": "summarizing "
+        },
+        {
+          "text": "analyze https://www.theverge.com/2019/3/3/18244501/spacex-crew-dragon-automatic-docking-international-space-station-nasa",
+          "mentions": [
+            {
+              "entity": "document",
+              "location": [
+                8,
+                120
+              ]
+            }
+          ]
+        },
+        {
+          "text": "analyze the document, https://www.theverge.com/2019/3/3/18244501/spacex-crew-dragon-automatic-docking-international-space-station-nasa",
+          "mentions": [
+            {
+              "entity": "document",
+              "location": [
+                22,
+                134
+              ]
+            }
+          ]
+        },
+        {
+          "text": "analyze it"
+        },
+        {
+          "text": "Let's do some research"
+        },
+        {
+          "text": "Give me a summary of https://www.vox.com/2015/2/6/18073658/private-space-flight",
+          "mentions": [
+            {
+              "entity": "document",
+              "location": [
+                21,
+                79
+              ]
+            }
+          ]
+        },
+        {
+          "text": "What does the document say?"
+        },
+        {
+          "text": "Summarize this document"
+        },
+        {
+          "text": "Summarize"
+        },
+        {
+          "text": "Can you get me a summary"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Prompt",
+      "examples": [
+        {
+          "text": "Tell me more"
+        },
+        {
+          "text": "Help"
+        },
+        {
+          "text": "Say more"
+        },
+        {
+          "text": "What can I do?"
+        },
+        {
+          "text": "What are my options?"
+        },
+        {
+          "text": "Continue"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Entity-Tone",
+      "examples": [
+        {
+          "text": "What should I be hearing in his comments?"
+        },
+        {
+          "text": "What is the general sentiment that GE exudes?",
+          "mentions": [
+            {
+              "entity": "entity",
+              "location": [
+                35,
+                37
+              ]
+            }
+          ]
+        },
+        {
+          "text": "How does Steve Jobs feel?",
+          "mentions": [
+            {
+              "entity": "entity",
+              "location": [
+                9,
+                19
+              ]
+            }
+          ]
+        },
+        {
+          "text": "How are people hearing Elon Musk?",
+          "mentions": [
+            {
+              "entity": "entity",
+              "location": [
+                23,
+                32
+              ]
+            }
+          ]
+        },
+        {
+          "text": "What tone do they generate?"
+        },
+        {
+          "text": "how is John expressing himself?",
+          "mentions": [
+            {
+              "entity": "entity",
+              "location": [
+                7,
+                11
+              ]
+            }
+          ]
+        },
+        {
+          "text": "What is his emotional state?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Affirmative",
+      "examples": [
+        {
+          "text": "Yep"
+        },
+        {
+          "text": "Go on"
+        },
+        {
+          "text": "Absolutely"
+        },
+        {
+          "text": "Sure"
+        },
+        {
+          "text": "I agree"
+        },
+        {
+          "text": "Excellent"
+        },
+        {
+          "text": "Yes"
+        },
+        {
+          "text": "Cool"
+        }
+      ],
+      "description": ""
+    }
+  ],
+  "entities": [
+    {
+      "entity": "document",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "https://www.popsci.com/tags/private-space-industry",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "https://www.vox.com/2015/2/6/18073658/private-space-flight",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "https://www.theverge.com/2019/3/3/18244501/spacex",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "https://now.northropgrumman.com/commercial-space",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "https://www.theverge.com/2018/5/9/17254384/spacex-falcon-9",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "https://www.nationalgeographic.com/",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "https://www.newstatesman.com/science-tech/space/2018/01/",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "entity",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "IBM",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Virgin Galactic",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Elon",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "GE",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Bloomberg",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Jim Baker",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Anne Martin",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Chad Anderson",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "NASA",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Elon Musk",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Boeing",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "SpaceX",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Steve Jobs",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "John",
+          "synonyms": []
+        }
+      ]
+    },
+    {
+      "entity": "sys-person",
+      "values": []
+    },
+    {
+      "entity": "language",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Japanese",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "French",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "German",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Spanish",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Chinese",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Portuguese",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Italian",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Russian",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Norwegian",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Hindi",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "English",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    }
+  ],
+  "language": "en",
+  "metadata": {
+    "api_version": {
+      "major_version": "v1",
+      "minor_version": "2018-09-20"
+    }
+  },
+  "description": "",
+  "dialog_nodes": [
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Good, we'll look closer at $research_entity"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_21_1554058687160",
+      "context": {
+        "research_entity": "@entity"
+      },
+      "metadata": {},
+      "conditions": "@entity",
+      "dialog_node": "node_24_1554064624164",
+      "previous_sibling": "node_23_1554064587348"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Fine. Let's take a look at $research_document"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_21_1554058687160",
+      "context": {
+        "research_document": "@document"
+      },
+      "metadata": {},
+      "conditions": "@document",
+      "dialog_node": "node_23_1554064587348"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Sounds good. "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "parent": "node_17_1554055880479",
+      "metadata": {},
+      "conditions": "$research_document",
+      "dialog_node": "node_20_1554057012179",
+      "previous_sibling": "node_19_1554056964940"
+    },
+    {
+      "type": "standard",
+      "title": "otheriwse",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "We need a document to classify."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_17_1554055880479",
+      "metadata": {},
+      "conditions": "not $research_document",
+      "dialog_node": "node_19_1554056964940",
+      "previous_sibling": "node_18_1554055905776"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_17_1554055880479",
+      "context": {
+        "research_document": "@document"
+      },
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "condition",
+        "dialog_node": "node_20_1554057012179"
+      },
+      "conditions": "@document",
+      "dialog_node": "node_18_1554055905776"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_1_1555556443922",
+      "event_name": "focus",
+      "dialog_node": "handler_3_1555556443922",
+      "previous_sibling": "handler_2_1555556443922"
+    },
+    {
+      "type": "event_handler",
+      "parent": "slot_1_1555556443922",
+      "context": {
+        "person": "@sys-person"
+      },
+      "conditions": "@sys-person",
+      "event_name": "input",
+      "dialog_node": "handler_2_1555556443922"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "Welcome",
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "user_input",
+        "dialog_node": "node_2_1554048415268"
+      },
+      "conditions": "#Affirmative",
+      "dialog_node": "node_1_1554048345926"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_23_1554053009960",
+      "event_name": "focus",
+      "dialog_node": "handler_25_1554053009960",
+      "previous_sibling": "handler_24_1554053009960"
+    },
+    {
+      "type": "event_handler",
+      "parent": "slot_23_1554053009960",
+      "event_name": "input",
+      "dialog_node": "handler_24_1554053009960"
+    },
+    {
+      "type": "standard",
+      "title": "otherwise",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "You need to specify the document that you want summarized."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1555790253195",
+      "metadata": {},
+      "conditions": "not $research_document",
+      "dialog_node": "node_3_1555790462694",
+      "previous_sibling": "node_2_1555790317407"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "The following is a summary of the document."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1555790253195",
+      "metadata": {},
+      "conditions": "$research_document",
+      "dialog_node": "node_4_1555790505784",
+      "previous_sibling": "node_3_1555790462694"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1555790253195",
+      "context": {
+        "research_document": "@document"
+      },
+      "metadata": {},
+      "conditions": "@document",
+      "dialog_node": "node_2_1555790317407"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_5_1555556527186",
+      "event_name": "focus",
+      "dialog_node": "handler_7_1555556527186",
+      "previous_sibling": "handler_6_1555556527186"
+    },
+    {
+      "type": "event_handler",
+      "parent": "slot_5_1555556527186",
+      "context": {
+        "person": "@sys-person"
+      },
+      "conditions": "@sys-person",
+      "event_name": "input",
+      "dialog_node": "handler_6_1555556527186"
+    },
+    {
+      "type": "standard",
+      "title": "otherwise",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Specify the person on which you want to assess"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4_1554054169500",
+      "metadata": {},
+      "conditions": "not $research_entity",
+      "dialog_node": "node_7_1554054169515",
+      "previous_sibling": "node_6_1554054169515"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "The tone of $research_entity will be assessed. "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4_1554054169500",
+      "metadata": {},
+      "conditions": "$research_entity",
+      "dialog_node": "node_8_1554054169515",
+      "previous_sibling": "node_7_1554054169515"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4_1554054169500",
+      "context": {
+        "research_entity": "@entity"
+      },
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "condition",
+        "dialog_node": "node_8_1554054169515"
+      },
+      "conditions": "@entity",
+      "dialog_node": "node_6_1554054169515",
+      "previous_sibling": "node_5_1554054169515"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4_1554054169500",
+      "context": {
+        "research_entity": "@sys-person"
+      },
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "condition",
+        "dialog_node": "node_8_1554054169515"
+      },
+      "conditions": "@sys-person",
+      "dialog_node": "node_5_1554054169515"
+    },
+    {
+      "type": "standard",
+      "title": "otherwise",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Specify the entity that you want to focus on."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_8_1554049352012",
+      "metadata": {},
+      "conditions": "not $research_entity",
+      "dialog_node": "node_15_1554050567026",
+      "previous_sibling": "node_13_1554050410077"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Research will focus on $research_entity"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_8_1554049352012",
+      "metadata": {},
+      "conditions": "$research_entity",
+      "dialog_node": "node_14_1554050515254",
+      "previous_sibling": "node_15_1554050567026"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_8_1554049352012",
+      "context": {
+        "research_entity": "@entity"
+      },
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "condition",
+        "dialog_node": "node_14_1554050515254"
+      },
+      "conditions": "@entity",
+      "dialog_node": "node_13_1554050410077",
+      "previous_sibling": "node_26_1554053132226"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_8_1554049352012",
+      "context": {
+        "research_entity": "@sys-person"
+      },
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "condition",
+        "dialog_node": "node_14_1554050515254"
+      },
+      "conditions": "@sys-person",
+      "dialog_node": "node_26_1554053132226"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1554048663278",
+      "context": {
+        "research_document": "@document"
+      },
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "condition",
+        "dialog_node": "node_11_1554049890870"
+      },
+      "conditions": "@document",
+      "dialog_node": "node_10_1554049655328",
+      "previous_sibling": "slot_23_1554053009960"
+    },
+    {
+      "type": "slot",
+      "parent": "node_3_1554048663278",
+      "dialog_node": "slot_23_1554053009960",
+      "previous_sibling": "handler_22_1554053009938"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Research will be performed on this."
+              },
+              {
+                "text": "What would you like to research about it?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "parent": "node_3_1554048663278",
+      "metadata": {},
+      "conditions": "$research_document",
+      "dialog_node": "node_11_1554049890870",
+      "previous_sibling": "node_12_1554049997013"
+    },
+    {
+      "type": "standard",
+      "title": "otherwise",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Please specify the URL."
+              },
+              {
+                "text": "You will need to provide the URL of the document you want researched."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1554048663278",
+      "metadata": {},
+      "conditions": "not $research_document",
+      "dialog_node": "node_12_1554049997013",
+      "previous_sibling": "node_10_1554049655328"
+    },
+    {
+      "type": "event_handler",
+      "parent": "node_3_1554048663278",
+      "event_name": "focus",
+      "dialog_node": "handler_22_1554053009938"
+    },
+    {
+      "type": "standard",
+      "title": "otherwise",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Specify the language you want to translate to"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_9_1554054411109",
+      "metadata": {},
+      "conditions": "not $translation_language",
+      "dialog_node": "node_14_1554054808598",
+      "previous_sibling": "node_16_1554055276699"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_9_1554054411109",
+      "context": {
+        "translation_language": "@language"
+      },
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "condition",
+        "dialog_node": "node_15_1554054890881"
+      },
+      "conditions": "@language:Spanish || @language:German || @language:French || @language:English",
+      "dialog_node": "node_13_1554054605619",
+      "previous_sibling": "node_11_1554054470748"
+    },
+    {
+      "type": "standard",
+      "title": "otherwise",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "You need to specify the document that you want to translate."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_9_1554054411109",
+      "metadata": {},
+      "conditions": "not $research_document",
+      "dialog_node": "node_11_1554054470748",
+      "previous_sibling": "node_10_1554054428744"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "That's not one of the languages we can translate to; specify a different language."
+              },
+              {
+                "text": "We can translate to German, Spanish, French or English. Which of these do you want to translate?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "Available Languages",
+            "options": [
+              {
+                "label": "Spanish",
+                "value": {
+                  "input": {
+                    "text": "Translate $research_document to Spanish"
+                  }
+                }
+              },
+              {
+                "label": "German",
+                "value": {
+                  "input": {
+                    "text": "Translate $research_document to German"
+                  }
+                }
+              },
+              {
+                "label": "French",
+                "value": {
+                  "input": {
+                    "text": "Translate $research_document to French"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_9_1554054411109",
+      "metadata": {},
+      "conditions": "@language",
+      "dialog_node": "node_16_1554055276699",
+      "previous_sibling": "node_13_1554054605619"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "A summary of the document will be translated to $translation_language"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_9_1554054411109",
+      "metadata": {},
+      "conditions": "$research_document && $translation_language",
+      "dialog_node": "node_15_1554054890881",
+      "previous_sibling": "node_14_1554054808598"
+    },
+    {
+      "type": "standard",
+      "title": "@document",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_9_1554054411109",
+      "context": {
+        "research_document": "@document"
+      },
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "condition",
+        "dialog_node": "node_13_1554054605619"
+      },
+      "dialog_node": "node_10_1554054428744"
+    },
+    {
+      "type": "event_handler",
+      "parent": "node_2_1554053979714",
+      "event_name": "focus",
+      "dialog_node": "handler_4_1555556527175",
+      "previous_sibling": "slot_5_1555556527186"
+    },
+    {
+      "type": "slot",
+      "parent": "node_2_1554053979714",
+      "variable": "$person",
+      "dialog_node": "slot_5_1555556527186"
+    },
+    {
+      "type": "standard",
+      "title": "otherwise",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Specify the person on which you want to assess"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_20_1554052815939",
+      "metadata": {
+        "fallback": "leave"
+      },
+      "conditions": "not $research_entity",
+      "dialog_node": "node_2_1554053979714",
+      "digress_out": "allow_all",
+      "previous_sibling": "node_1_1554053946826"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_20_1554052815939",
+      "context": {
+        "research_entity": "@sys-person"
+      },
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "condition",
+        "dialog_node": "node_3_1554054073019"
+      },
+      "conditions": "@sys-person",
+      "dialog_node": "node_21_1554052862505",
+      "previous_sibling": "slot_1_1555556443922"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_20_1554052815939",
+      "context": {
+        "research_entity": "@entity"
+      },
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "condition",
+        "dialog_node": "node_3_1554054073019"
+      },
+      "conditions": "@entity",
+      "dialog_node": "node_1_1554053946826",
+      "previous_sibling": "node_21_1554052862505"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "The personality of $research_entity will be assessed. "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_20_1554052815939",
+      "metadata": {},
+      "conditions": "$research_entity",
+      "dialog_node": "node_3_1554054073019",
+      "previous_sibling": "node_2_1554053979714"
+    },
+    {
+      "type": "slot",
+      "parent": "node_20_1554052815939",
+      "variable": "$person",
+      "dialog_node": "slot_1_1555556443922"
+    },
+    {
+      "type": "standard",
+      "title": "Empty anything else",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "I'm not following what you want to do. Try providing the URL of a document you want to research."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "metadata": {},
+      "conditions": "anything_else",
+      "dialog_node": "node_5_1554048832384",
+      "previous_sibling": "Anything else"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "It has been a pleasure working with you."
+              },
+              {
+                "text": "Hope that was helpful."
+              },
+              {
+                "text": "Good session."
+              },
+              {
+                "text": "We'll finish there. Let me know when you're ready to resume your research."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "metadata": {},
+      "conditions": "#Done",
+      "dialog_node": "node_22_1554059002089",
+      "previous_sibling": "node_21_1554058687160"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "What else do you want to do?"
+              },
+              {
+                "text": "Do you want to do some deeper analysis? Consider focusing on a new document, or specific entity of interest."
+              },
+              {
+                "text": "Let's go deeper. Who are you interested in?"
+              },
+              {
+                "text": "You liked that. Who else do you want to assess?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "metadata": {},
+      "conditions": "#Affirmative",
+      "dialog_node": "node_21_1554058687160",
+      "previous_sibling": "node_17_1554055880479"
+    },
+    {
+      "type": "standard",
+      "title": "Help prompt",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "You can point to a document that you want to research, analyze it, identify the entities you're interested in, evaluate their personality, check their emotional tone, translate a summary of the document, or classify the key points of the document. "
+              },
+              {
+                "text": "Research a specific document, get an analysis of it, focus on a particular person, check their personality or emotional tone, translate or classify it."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "metadata": {},
+      "conditions": "#Prompt",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_2_1554048415268",
+      "previous_sibling": "node_4_1554048712283"
+    },
+    {
+      "type": "standard",
+      "title": "Empty welcome",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Identify a document that you want to research."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "metadata": {},
+      "conditions": "welcome",
+      "dialog_node": "node_4_1554048712283",
+      "previous_sibling": "Welcome"
+    },
+    {
+      "type": "standard",
+      "title": "Anything else",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "I didn't understand. You can try rephrasing."
+              },
+              {
+                "text": "Can you reword your statement? I'm not understanding."
+              },
+              {
+                "text": "I didn't get your meaning."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "metadata": {},
+      "conditions": "anything_else && $research_document",
+      "dialog_node": "Anything else",
+      "previous_sibling": "node_22_1554059002089"
+    },
+    {
+      "type": "standard",
+      "title": "Identify entity of interest",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "condition",
+        "dialog_node": "node_26_1554053132226"
+      },
+      "conditions": "#Entity-Of-Interest",
+      "dialog_node": "node_8_1554049352012",
+      "previous_sibling": "node_1_1555790253195"
+    },
+    {
+      "type": "standard",
+      "title": "Set document of interest",
+      "output": {
+        "generic": []
+      },
+      "context": {
+        "research_document": ""
+      },
+      "metadata": {
+        "fallback": "leave"
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "condition",
+        "dialog_node": "node_10_1554049655328"
+      },
+      "conditions": "#Document-Of-Interest",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_3_1554048663278",
+      "digress_out": "allow_all",
+      "previous_sibling": "node_2_1554048415268"
+    },
+    {
+      "type": "standard",
+      "title": "Translate",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "condition",
+        "dialog_node": "node_10_1554054428744"
+      },
+      "conditions": "#Translate-Research",
+      "dialog_node": "node_9_1554054411109",
+      "previous_sibling": "node_4_1554054169500"
+    },
+    {
+      "type": "standard",
+      "title": "Assess personality",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "metadata": {
+        "fallback": "leave"
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "condition",
+        "dialog_node": "node_21_1554052862505"
+      },
+      "conditions": "#Entity-Personality",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_20_1554052815939",
+      "digress_out": "allow_all",
+      "previous_sibling": "node_8_1554049352012"
+    },
+    {
+      "type": "standard",
+      "title": "Summarize the document",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "condition",
+        "dialog_node": "node_2_1555790317407"
+      },
+      "conditions": "#Summarize-Document",
+      "dialog_node": "node_1_1555790253195",
+      "previous_sibling": "node_3_1554048663278"
+    },
+    {
+      "type": "standard",
+      "title": "Classify",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "condition",
+        "dialog_node": "node_18_1554055905776"
+      },
+      "conditions": "#Classify-Text",
+      "dialog_node": "node_17_1554055880479",
+      "previous_sibling": "node_9_1554054411109"
+    },
+    {
+      "type": "standard",
+      "title": "Assess tone",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "condition",
+        "dialog_node": "node_5_1554054169515"
+      },
+      "conditions": "#Entity-Tone",
+      "dialog_node": "node_4_1554054169500",
+      "previous_sibling": "node_20_1554052815939"
+    },
+    {
+      "type": "standard",
+      "title": "Welcome",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Research on $research_document. What would you like to do?"
+              },
+              {
+                "text": "We're looking at $research_document. Would you like to drill in further?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "metadata": {},
+      "conditions": "welcome && $research_document",
+      "dialog_node": "Welcome"
+    }
+  ],
+  "workspace_id": "beb32203-c974-46dd-997f-f91f0968acf5",
+  "counterexamples": [],
+  "system_settings": {
+    "tooling": {
+      "store_generic_responses": true
+    }
+  },
+  "learning_opt_out": false,
+  "status": "Available"
+}

@@ -1,0 +1,46 @@
+{
+    "speaker_labels": [
+        {
+            "to": 11.67,
+            "confidence": 0.382,
+            "speaker": 2,
+            "from": 11.44,
+            "final": false
+        },
+        {
+            "to": 11.8,
+            "confidence": 0.382,
+            "speaker": 2,
+            "from": 11.67,
+            "final": false
+        },
+        {
+            "to": 11.89,
+            "confidence": 0.382,
+            "speaker": 2,
+            "from": 11.8,
+            "final": false
+        },
+        {
+            "to": 12.41,
+            "confidence": 0.382,
+            "speaker": 2,
+            "from": 11.89,
+            "final": false
+        },
+        {
+            "to": 16.07,
+            "confidence": 0.446,
+            "speaker": 0,
+            "from": 15.81,
+            "final": false
+        },
+        {
+            "to": 39.55,
+            "confidence": 0.48,
+            "speaker": 2,
+            "from": 38.92,
+            "final": false
+        }
+    ]
+}
